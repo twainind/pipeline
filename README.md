@@ -21,7 +21,8 @@ Hardware you will also need:
 * Raspberry Pi Zero w / 3a / 3b
 * SD card with Raspbian installed (lite works too)
 * 4 CH 5v relay module
-* Temperature probes (ds18b20) (2 can be used via i2c)
+* Temperature probes (ds18b20) (2 can be used via 1-wire)
+* DHT-22 probe
 * Jumper Cables
 * Some techno-savy
 
