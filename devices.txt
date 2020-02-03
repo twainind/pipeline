@@ -1,0 +1,11 @@
+device deviceLABEL - Follow this format exactly!
+12 Valve 1
+16 Valve 2
+20 Sump Pump 1
+21 Overflow control
+T1NAME=Fish Tank
+T2NAME=Grow Bed
+T3NAME=Green House
+T1LIMIT=35.0
+T2LIMIT=35.0
+T3LIMIT=35.0

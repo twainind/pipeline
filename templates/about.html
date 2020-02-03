@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <link rel=stylesheet href="/static/default.css" />
+</head>
+
+<body>
+
+<div class="sidenav">
+    <a href="/">Home</a>
+    <a href="/gpio">GPIO</a>
+    <a href="/timers">Timers</a>
+    <a href="/about">About</a>
+</div>
+<div class="top">
+    <h1>pipeline</h1> V0.0.5a
+
+    <div class="currTemp">
+        {% for temp in temperature %}
+        {{temperature[temp].name}}: {{temperature[temp].TEMP[::-1][0]}} Celcius<span style="display:inline-block; width:20px;"></span>
+        {% endfor %}
+        Humidity: 80%
+    </div>
+
+</div>
+
+<div class='main'>
+<h1>Aquaponic System Controller</h1>
+   <h2>ABOUT</h2>
+   <p>This Project was scrapped together by Mark Pryor</p><br>
+   Any questions regarding this project can be emailed to: <br>
+   <b>twain.ind@gmail.com</b><br>
+   IF you would like to contribute, Please also email me outlining your desired involvement.
+
+
+</div>
+
+</body>
+
+</html>

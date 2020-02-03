@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <link rel=stylesheet href="/static/default.css" />
+</head>
+
+<body>
+<div class=contain-all>
+
+    <div class="sidenav">
+        <a href="/">Home</a>
+        <a href="#">GPIO</a>
+        <a href="/timers">Timers</a>
+        <a href="/about">About</a>
+    </div>
+    <div class="top">
+        <h1>pipeline</h1> V0.0.5a
+
+        <div class="currTemp">
+            {% for temp in temperature %}
+            {{temperature[temp].name}}: {{temperature[temp].TEMP[::-1][0]}} Celcius<span style="display:inline-block; width:20px;"></span>
+            {% endfor %}
+            Humidity: 80%
+        </div>
+
+    </div>
+<div class='main'>
+<h1>Aquaponic System Controller</h1>
+   <h2>GPIO Assignment</h2>
+   <p>Use the chart below to assign GPIO pins to devices</p>
+   <img src="/static/img/gpio-decal.png" alt="gpio Decal" width=50% height=50% />
+   <p>Image: <a href="https://www.raspberrypi-spy.co.uk">raspberrypi-spy.co.uk</a></p>
+
+</div>
+</div>
+</body>
+
+</html>
